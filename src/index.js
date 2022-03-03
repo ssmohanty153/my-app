@@ -1,12 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import '../node_modules/bootstrap/dist/css/bootstrap.css';
 import App from './App';
+import Register from './components/register';
+import Login from './components/loginPage';
+import FormComponent from './components/formComponent';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <FormComponent/>
+
   </React.StrictMode>,
   document.getElementById('root')
 );
