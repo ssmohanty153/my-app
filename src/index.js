@@ -5,12 +5,15 @@ import '../node_modules/bootstrap/dist/css/bootstrap.css';
 import App from './App';
 import Register from './components/register';
 import Login from './components/loginPage';
+import  FormikDemoComponent from './components/formicDemoComponent';
+import FormikDemo2Component from './components/formikDemo2Components';
+import FormValidationComponent from './components/formikvslidation';
 import FormComponent from './components/formComponent';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <FormComponent/>
+    <FormValidationComponent />
 
   </React.StrictMode>,
   document.getElementById('root')
