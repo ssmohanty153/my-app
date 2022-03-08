@@ -9,12 +9,13 @@ import  FormikDemoComponent from './components/formicDemoComponent';
 import FormikDemo2Component from './components/formikDemo2Components';
 import FormValidationComponent from './components/formikvslidation';
 import YapValidationCopmonent from './components/YapValefationComponent';
+import ValidateComponent from './components/ValidateComponent';
 import FormComponent from './components/formComponent';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <YapValidationCopmonent />
+    <ValidateComponent />
 
   </React.StrictMode>,
   document.getElementById('root')
