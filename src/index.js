@@ -10,12 +10,15 @@ import FormikDemo2Component from './components/formikDemo2Components';
 import FormValidationComponent from './components/formikvslidation';
 import YapValidationCopmonent from './components/YapValefationComponent';
 import ValidateComponent from './components/ValidateComponent';
+import LifecycleComponent from './components/LifeCycleHooks';
+import CycleDemocomponent from './components/CycledemoComponent';
+import ConditionalRendering from './components/ConditionalRandering';
 import FormComponent from './components/formComponent';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <ValidateComponent />
+    < ConditionalRendering/>
 
   </React.StrictMode>,
   document.getElementById('root')
