@@ -13,12 +13,14 @@ import ValidateComponent from './components/ValidateComponent';
 import LifecycleComponent from './components/LifeCycleHooks';
 import CycleDemocomponent from './components/CycledemoComponent';
 import ConditionalRendering from './components/ConditionalRandering';
+import NasaMarseRoberCompnent from './components/NasaMarsRoberComponent';
+import FatchApiComponent from './components/ConsumingRestApiByFetch';
 import FormComponent from './components/formComponent';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    < ConditionalRendering/>
+    < NasaMarseRoberCompnent/>
 
   </React.StrictMode>,
   document.getElementById('root')
