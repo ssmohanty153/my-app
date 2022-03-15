@@ -14,13 +14,14 @@ import LifecycleComponent from './components/LifeCycleHooks';
 import CycleDemocomponent from './components/CycledemoComponent';
 import ConditionalRendering from './components/ConditionalRandering';
 import NasaMarseRoberCompnent from './components/NasaMarsRoberComponent';
+import AxiosApiComponent from './components/ConsuminrestApiByAxios';
 import FatchApiComponent from './components/ConsumingRestApiByFetch';
 import FormComponent from './components/formComponent';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    < NasaMarseRoberCompnent/>
+    < AxiosApiComponent/>
 
   </React.StrictMode>,
   document.getElementById('root')

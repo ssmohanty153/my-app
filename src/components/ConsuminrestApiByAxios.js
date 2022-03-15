@@ -23,22 +23,24 @@ export default class AxiosApiComponent extends React.Component{
             <div className="container-fluid">
                 <h2>Nasa Mars Rower Photos</h2>
                 <div className="cards-group">
+                <div className="row" >
                     {
                         this.state.Photos.map(mars=>
-                           <div className="d-flex" key={mars.id}>
+                           <div className="col-md-3" key={mars.id}>
                                 <div className="card">
-                                <img src={mars.img_src} alt={mars.id} height="50" width="50" className="card-img-top"/>
+                                <img src={mars.img_src} alt={mars.id} height="150" width="150" className="card-img-top"/>
                                 <div className="card-header">
                                     <h3>{mars.id}</h3>
                                     <p>{mars.sol}</p>
                              </div>
 
                             </div>
-                               </div>
+                         </div>
 
                         )
 
                     }
+                    </div>
                 </div>
             </div>
             </>
