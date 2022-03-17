@@ -15,13 +15,14 @@ import CycleDemocomponent from './components/CycledemoComponent';
 import ConditionalRendering from './components/ConditionalRandering';
 import NasaMarseRoberCompnent from './components/NasaMarsRoberComponent';
 import AxiosApiComponent from './components/ConsuminrestApiByAxios';
+import AppHomeComponent from './components/AppHomeComponent';
 import FatchApiComponent from './components/ConsumingRestApiByFetch';
 import FormComponent from './components/formComponent';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    < AxiosApiComponent/>
+    < AppHomeComponent/>
 
   </React.StrictMode>,
   document.getElementById('root')
