@@ -18,11 +18,13 @@ import AxiosApiComponent from './components/ConsuminrestApiByAxios';
 import AppHomeComponent from './components/AppHomeComponent';
 import FatchApiComponent from './components/ConsumingRestApiByFetch';
 import FormComponent from './components/formComponent';
+import IndexComponent from './AmazooneComponent/indexComponent';
 import reportWebVitals from './reportWebVitals';
+import '../node_modules/bootstrap-icons/font/bootstrap-icons.css'
 
 ReactDOM.render(
   <React.StrictMode>
-    < AppHomeComponent/>
+    < IndexComponent/>
 
   </React.StrictMode>,
   document.getElementById('root')
